@@ -1,0 +1,19 @@
+using System; 
+class helloWorld{
+    static void Main(string[] args){
+      // this is a single line comment 
+      // two forward slashes are used to write comments in C# 
+
+        Console.WriteLine("Hello , World!");
+
+        /*
+            This is a multi-line comments 
+            Console.WriteLine(); 
+            Console.Write();
+
+            -> These are the two methods used for writing or printing a command 
+            -> Write() does note create a new line after printing the command whereas WriteLine() does.
+
+        */
+    }
+}

@@ -1,0 +1,21 @@
+using System; 
+class helloWorld{
+    static void Main(string[] args){
+        
+        Console.WriteLine("\tHello , World!");  // \t is used for creating a tab space 
+        Console.WriteLine("Hel\blo , World!");  // \b is used for backspace
+        Console.WriteLine("Hel\nlo , World!");  // \n for new line 
+    }
+}
+
+
+/*
+
+OUTPUT : 
+
+	Hello , World!
+Hello , World!
+Hel
+lo , World!
+
+*/
